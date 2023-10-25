@@ -16,7 +16,6 @@ async function bootstrap() {
     .setTitle('Sakila API')
     .setDescription('The sakila API description')
     .setVersion('1.0')
-    .addTag('actor')
     .addTag('film')
     .build();
   const document = SwaggerModule.createDocument(app, config);

@@ -89,13 +89,4 @@ export class Film {
     { name: "original_language_id", referencedColumnName: "languageId" },
   ])
   originalLanguage: Language;
-
-//   @OneToMany(() => FilmActor, (filmActor) => filmActor.film)
-//   filmActors: FilmActor[];
-
-//   @OneToMany(() => FilmCategory, (filmCategory) => filmCategory.film)
-//   filmCategories: FilmCategory[];
-
-//   @OneToMany(() => Inventory, (inventory) => inventory.film)
-//   inventories: Inventory[];
 }
